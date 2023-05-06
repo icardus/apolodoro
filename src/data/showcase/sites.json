@@ -1,18 +1,18 @@
 [
   {
-    "title": "PoliNations",
+    "title": "Newgrass Republic",
     "image": "./images/polinations.png",
-    "url": "https://polinations.com/"
+    "url": "https://newgrassrepublic.com/"
   },
   {
-    "title": "Astro Docs",
+    "title": "Festival Al Ras",
     "image": "./images/astro-docs.png",
-    "url": "https://docs.astro.build/"
+    "url": "https://alrasfestival.com/"
   },
   {
-    "title": "<div>RIOTS",
+    "title": "Figuracions",
     "image": "./images/divriots.png",
-    "url": "https://divriots.com/"
+    "url": "https://figuracions.com/"
   },
   {
     "title": "Designcember",
@@ -20,13 +20,13 @@
     "url": "https://designcember.com/"
   },
   {
-    "title": "The Firebase Blog",
+    "title": "Capdevila Joiers",
     "image": "./images/firebase-blog.png",
-    "url": "https://firebase.blog/"
+    "url": "https://capdevilajoiers.com/"
   },
   {
-    "title": "Corset",
+    "title": "Danna Rebassa",
     "image": "./images/corset.png",
-    "url": "https://corset.dev/"
+    "url": "https://fisiodanna.cat/"
   }
 ]
