@@ -15,18 +15,18 @@
     "url": "https://figuracions.com/"
   },
   {
-    "title": "Designcember",
-    "image": "./images/designcember.png",
-    "url": "https://designcember.com/"
-  },
-  {
     "title": "Capdevila Joiers",
-    "image": "./images/firebase-blog.png",
+    "image": "./images/designcember.png",
     "url": "https://capdevilajoiers.com/"
   },
   {
     "title": "Danna Rebassa",
-    "image": "./images/corset.png",
+    "image": "./images/firebase-blog.png",
     "url": "https://fisiodanna.cat/"
+  },
+  {
+    "title": "AFA Pau Casals",
+    "image": "./images/corset.png",
+    "url": "https://afapaucasalsgracia.cat/"
   }
 ]

@@ -5,13 +5,13 @@ import type { CompatibilityItem } from "~/types";
 
 const frameworks: Array<CompatibilityItem> = [
   {
-    title: "React",
-    icon: "frameworks/react",
-    url: "https://reactjs.org/",
+    title: "Netlify",
+    icon: "platforms/netlify",
+    url: "https://netlify.com/",
   },
   {
-    title: "Preact",
-    icon: "frameworks/preact",
+    title: "Astro",
+    icon: "frameworks/astro",
     url: "https://preactjs.com/",
   },
   {
@@ -43,14 +43,14 @@ const platforms: Array<CompatibilityItem> = [
     url: "https://www.netlify.com/",
   },
   {
-    title: "Vercel",
-    icon: "platforms/vercel",
-    url: "https://vercel.com/",
+    title: "Boostrap",
+    icon: "platforms/boostrap",
+    url: "https://boostrap.com/",
   },
   {
-    title: "Cloudflare",
-    icon: "fa-brands:cloudflare",
-    url: "https://pages.cloudflare.com/",
+    title: "Wordpress",
+    icon: "fa-brands:wordpress",
+    url: "https://wordpress.org/",
   },
   {
     title: "Render",
@@ -70,20 +70,13 @@ const platforms: Array<CompatibilityItem> = [
 ];
 ---
 
-<ContentSection title="Compatibility" id="compatibility">
+<!--<ContentSection title="Compatibility" id="compatibility">
   <Fragment slot="lead">
-    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
-    <span class="text-primary">framework</span>
-    and deploy to your favorite <span class="text-primary">platform</span>.
+    Some tools of my daily workflow
   </Fragment>
   <CompatibilityList
     items={frameworks}
     title="Frameworks"
     url="https://docs.astro.build/core-concepts/framework-components/"
-  />
-  <CompatibilityList
-    items={platforms}
-    title="Platforms"
-    url="https://docs.astro.build/guides/deploy/"
   />
 </ContentSection>
