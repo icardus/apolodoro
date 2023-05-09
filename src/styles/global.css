@@ -15,3 +15,10 @@ a,
   border-bottom: 1px solid rgb(212, 160, 57);
 
 }
+
+/*FOOTER SOCIAL ICONS CENTERED*/
+@media (min-width: 640px){
+.sm\:grid-cols-4 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+}

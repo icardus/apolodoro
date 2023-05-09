@@ -1,34 +1,42 @@
 ---
-import { Picture } from "@astrojs/image/components";
-import { Icon } from "astro-icon";
 import HeroImage from "~/components/hero-image.astro";
 import Starfield from "~/components/starfield.astro";
-import GitHubCorner from "./github-corner.astro";
+import type { FooterLink } from "~/types";
 
 const widths = [450, 800];
 const sizes = "(min-width: 640px) 42vw, 67vw";
 ---
 
 <section class="relative h-full bg-zinc-800">
-  <Starfield />
-  <GitHubCorner />
-  <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40">
-    <HeroImage />
-  </div>
+  <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40"></div>
   <div>
-    <div class="flex flex-col gap-2 self-end sm:gap-4 sm:self-auto items-center"><br><br>
-      <img src="/src/assets/astronaut.png" class="object-cover h-55 w-96 mt-8">
-      <h1 class="text-center font-extrabold tracking-tighter text-5xl gradient-text">
+    <div
+      class="flex flex-col items-center gap-2 self-end sm:gap-4 sm:self-auto"
+    >
+      <br /><br />
+
+      <img
+        src="/src/assets/astronaut.png"
+        class="h-55 mt-8 w-96 object-cover"
+      />
+      <h1
+        class="gradient-text text-center font-extrabold tracking-tighter text-5xl"
+      >
         Freelance front-end
         <br /> web developer
-        <br /> 
-      </div>
+        <br />
+      </h1>
       <div>
-        <p class="text-center">Hi, my name is Ignasi. I'm a front-end web developer based in Barcelona.<br /> 
-          I help companies to build fast, modern and fully responsive websites. <span class="available">I'm available for hire.</span></p>
+        <p class="text-center">
+          Hi, my name is Ignasi. I'm a front-end web developer based in
+          Barcelona.<br />
+          I help companies to build fast, modern and fully responsive websites. 
+          <a href="mailto:ignasi.cardus@gmail.com" class="available">I'm available for hire.
+          </a>
+        </p>
       </div>
-      </div><br>
-      <div class="absolute left-1/2 -ml-0.5 w-0.5 h-40 bg-gray-600"></div>
+    </div><br />
+    <div class="absolute left-1/2 -ml-0.5 h-40 w-0.5 bg-gray-600"></div>
   </div>
 
   <noscript>
