@@ -10,25 +10,27 @@ const widths = [450, 800];
 const sizes = "(min-width: 640px) 42vw, 67vw";
 ---
 
-<section class="relative h-full bg-black">
+<section class="relative h-full bg-zinc-900">
   <Starfield />
   <GitHubCorner />
   <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40">
     <HeroImage />
   </div>
   <div>
-    <h1
-      class="flex flex-col gap-2 self-end sm:gap-4 sm:self-auto sm:justify-self-end">
-     
-      <div
-        class="gradient-text text-center font-extrabold tracking-tighter text-7xl">
-        Freelance
-        <br /> front-end web
-        <br /> developer
-        <br /> based in Barcelona
+    <div class="flex flex-col gap-2 self-end sm:gap-4 sm:self-auto items-center"><br><br>
+      <img src="/src/assets/astronaut.png" class="object-cover h-55 w-96 mt-8">
+      <h1 class="text-center font-extrabold tracking-tighter text-5xl gradient-text">
+        Freelance front-end
+        <br /> web developer
+        <br /> 
       </div>
-    </h2>
-   <!-- <div
+      <div>
+        <p class="text-center">Hi, I’m Ignasi! I'm a front-end web developer based in Barcelona.<br /> 
+          I help companies to build fast, modern and fully responsive websites. <span class="available">I'm available for hire.</span></p>
+      </div>
+      </div>
+    </h1>
+    <!-- <div
       id="astronaut"
       class="w-2/3 max-w-3xl self-start sm:w-10/12 sm:self-auto sm:justify-self-start"
     >
@@ -42,42 +44,43 @@ const sizes = "(min-width: 640px) 42vw, 67vw";
       />
     </div>
   </div>-->
-</section>
+  </div>
 
-<noscript>
+  <noscript>
+    <style>
+      #splash-bg-fallback {
+        display: block;
+      }
+    </style>
+  </noscript>
+
   <style>
-    #splash-bg-fallback {
-      display: block;
+    @keyframes float {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 30px, 0);
+      }
+    }
+
+    #astronaut {
+      animation: float linear 2.5s infinite alternate;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      #astronaut {
+        @apply animate-none;
+      }
+
+      :global(#starfield) {
+        @apply hidden;
+      }
+
+      #splash-bg-fallback {
+        @apply block;
+      }
     }
   </style>
-</noscript>
-
-<style>
-  @keyframes float {
-    0% {
-      transform: translate3d(0, 0, 0);
-    }
-
-    100% {
-      transform: translate3d(0, 30px, 0);
-    }
-  }
-
-  #astronaut {
-    animation: float linear 2.5s infinite alternate;
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    #astronaut {
-      @apply animate-none;
-    }
-
-    :global(#starfield) {
-      @apply hidden;
-    }
-
-    #splash-bg-fallback {
-      @apply block;
-    }
-  }
-</style>
+</section>
