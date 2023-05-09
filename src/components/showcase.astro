@@ -6,11 +6,12 @@ import { getShowcase } from "~/data/showcase";
 const sites = await getShowcase();
 ---
 
-<ContentSection title="Showcase" id="showcase">
+<!--<ContentSection title="Showcase" id="showcase">
   <Fragment slot="lead">
     Simple, good-looking and fully responsive websites for everyone
-  </Fragment>
-  <div class="max-w-6xl space-y-2">
+  </Fragment>-->
+  <br>
+  <div class="max-w-8xl space-y-2">
     <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       {sites.map((site) => <ShowcaseCard site={site} />)}
     </div>
@@ -20,4 +21,4 @@ const sites = await getShowcase();
       </a>
     </p>
   </div>
-</ContentSection>
+<!--</ContentSection>

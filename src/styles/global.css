@@ -15,3 +15,10 @@ a,
   border-bottom: 1px solid rgb(212, 160, 57);
 
 }
+
+
+.vr {
+    height: 30px;
+    margin-bottom: -1em;
+    color: #7d7b7b;
+}
