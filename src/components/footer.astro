@@ -3,11 +3,7 @@ import { Icon } from "astro-icon";
 import type { FooterLink } from "~/types";
 
 const links: Array<FooterLink> = [
-  {
-    url: "https://banjosites.com/",
-    description: "Banjosite's official website",
-    icon: "mdi:home",
-  },
+ 
   {
     url: "mailto:ignasi.cardus@gmail.com",
     description: "Banjosites on Email",
@@ -24,7 +20,7 @@ const links: Array<FooterLink> = [
 <footer class="relative flex h-64 items-center justify-center">
   <div class="absolute inset-0 overflow-hidden opacity-40">
   </div>
-  <ul class="relative grid grid-cols-2 gap-4 sm:grid-cols-4">
+  <ul class="relative grid grid-cols-2 gap-4 sm:grid-cols-2">
     {
       links.map((link) => (
         <li>

@@ -10,9 +10,9 @@
     "url": "https://alrasfestival.com/"
   },
   {
-    "title": "Figuracions",
+    "title": "Turolmec",
     "image": "./images/divriots.png",
-    "url": "https://figuracions.com/"
+    "url": "https://polite-trifle-bbb9e3.netlify.app"
   },
   {
     "title": "Capdevila Joiers",
@@ -26,7 +26,7 @@
   },
   {
     "title": "AFA Pau Casals",
-    "image": "./images/corset.png",
-    "url": "https://afapaucasalsgracia.cat/"
+    "image": "./images/_corset.png",
+    "url": "https://afapaucasalsgracia.cat"
   }
 ]
