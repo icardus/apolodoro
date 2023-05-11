@@ -22,3 +22,11 @@ a,
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
 }
 }
+
+/*HERO TEXT BOBILE MARGIN*/
+
+@media (max-width: 480px) {
+  body {
+    margin: 1 !important;
+  }
+}
