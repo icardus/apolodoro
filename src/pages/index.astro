@@ -15,38 +15,23 @@ const description =
 <html lang="en" class="h-full motion-safe:scroll-smooth" data-theme="dark">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="max-image-preview:large">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="generator" content={generator} />
-
-    <title>Banjosites - Freelance web developer based in Barcelona</title>
+    <title>Banjosites - Freelance web designer and developer based in Barcelona</title>
     <meta name="description" content={description} />
-
-    <!-- initialize theme -->
-    <script is:inline>
-      const themeSaved = localStorage.getItem("theme");
-
-      if (themeSaved) {
-        document.documentElement.dataset.theme = themeSaved;
-      } else {
-        const prefersDark = window.matchMedia(
-          "(prefers-color-scheme: dark)"
-        ).matches;
-        document.documentElement.dataset.theme = prefersDark ? "dark" : "light";
-      }
-
-      window
-        .matchMedia("(prefers-color-scheme: dark)")
-        .addEventListener("change", (event) => {
-          if (!localStorage.getItem("theme")) {
-            document.documentElement.dataset.theme = event.matches
-              ? "dark"
-              : "light";
-          }
-        });
-    </script>
-
+    <meta property="og:locale" content="en_EN">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Banjosites">
+    <meta property="og:description" content="Freelance web designer and developer based in Barcelona">
+    <meta property="og:url" content="https://www.banjosites.com/">
+    <link rel="canonical" href="https://www.banjosites.com/">
+    <meta name="author" content="Banjosites">
+    <meta name="keywords" content="Web design, Frontend web developer, Wordpress, Bootstrap, Astro">
+    <meta name="google-site-verification" content="">
   </head>
+ 
   <body class="h-full overflow-x-hidden bg-zinc-800 text-default text-base selection:bg-zinc-800 selection:text-white"></body>
     <Splash />
     <Showcase />
