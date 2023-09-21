@@ -2,57 +2,40 @@
 import CompatibilityList from "~/components/compatibility-list.astro";
 import ContentSection from "~/components/content-section.astro";
 import type { CompatibilityItem } from "~/types";
+import type { Icon } from 'astro-icon';
+
 
 const frameworks: Array<CompatibilityItem> = [
-  {
-    title: "Netlify",
-    icon: "platforms/netlify",
-    url: "https://netlify.com/",
-  },
-  {
-    title: "Astro",
-    icon: "frameworks/astro",
-    url: "https://preactjs.com/",
-  },
-];
-
-const platforms: Array<CompatibilityItem> = [
-  {
-    title: "Netlify",
-    icon: "platforms/netlify",
-    url: "https://www.netlify.com/",
-  },
-  {
-    title: "Boostrap",
-    icon: "platforms/boostrap",
-    url: "https://boostrap.com/",
-  },
+ 
   {
     title: "Wordpress",
     icon: "fa-brands:wordpress",
     url: "https://wordpress.org/",
   },
   {
-    title: "Render",
-    icon: "platforms/render",
-    url: "https://render.com/",
+    title: "Bootstrap",
+    icon: "fa-brands:bootstrap",
+    url: "https://bootstrap.com/",
+  },
+  {
+    title: "Netlify",
+    icon: "platforms/netlify",
+    url: "https://netlify.com/",
   },
   {
     title: "GitHub",
     icon: "fa-brands:github",
     url: "https://pages.github.com/",
   },
-  {
-    title: "GitLab",
-    icon: "fa-brands:gitlab",
-    url: "https://docs.gitlab.com/ee/user/project/pages/",
-  },
+  
+
 ];
+
 ---
 
-<!--<ContentSection title="Compatibility" id="compatibility">
+<ContentSection title="Algunes de les meves eiens habituals" id="compatibility">
   <Fragment slot="lead">
-    Some tools of my daily workflow
+    
   </Fragment>
   <CompatibilityList
     items={frameworks}
@@ -60,3 +43,4 @@ const platforms: Array<CompatibilityItem> = [
     url="https://docs.astro.build/core-concepts/framework-components/"
   />
 </ContentSection>
+
