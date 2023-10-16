@@ -1,10 +1,5 @@
 [
   {
-    "title": "Universitat de Barcelona",
-    "image": "./images/polinations.png",
-    "url": "https://acortar.link/tjtfWz"
-  },
-  {
     "title": "Festival Al Ras",
     "image": "./images/astro-docs.png",
     "url": "https://alrasfestival.com/"
@@ -28,6 +23,11 @@
     "title": "Fruty Tap Dance",
     "image": "./images/_corset.png",
     "url": "https://rubenfruty.com"
+  },
+  {
+    "title": "Universitat de Barcelona",
+    "image": "./images/polinations.png",
+    "url": "https://t.ly/gHzii"
   },
   {
     "title": "Figuracions",
