@@ -5,27 +5,47 @@ import type { CompatibilityItem } from "~/types";
 import type { Icon } from 'astro-icon';
 
 
+
+
 const frameworks: Array<CompatibilityItem> = [
  
   {
     title: "Wordpress",
     icon: "fa-brands:wordpress",
     url: "https://wordpress.org/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+  },
+  {
+    title: "Astro",
+    icon: "frameworks/astro",
+    url: "https://astro.build/",
+       target: "_blank",
+    rel: "noopener noreferrer",
   },
   {
     title: "Bootstrap",
     icon: "fa-brands:bootstrap",
-    url: "https://bootstrap.com/",
+    url: "https://getbootstrap.com/",
+    target: "_blank",
+    rel: "noopener noreferrer",
   },
   {
     title: "Netlify",
     icon: "platforms/netlify",
     url: "https://netlify.com/",
+    target: "_blank",
+    rel: "noopener noreferrer",
   },
   {
     title: "JS",
     icon: "fa-brands:js",
-    url: "https://pages.github.com/",
+    url: "#",
+  },
+  {
+    title: "CSS",
+    icon: "frameworks/css",
+    url: "#",
   },
  
   
