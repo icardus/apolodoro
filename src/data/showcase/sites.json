@@ -5,9 +5,14 @@
     "url": "https://alrasfestival.com/"
   },
   {
-    "title": "Turolmec",
-    "image": "./images/divriots.png",
-    "url": "https://polite-trifle-bbb9e3.netlify.app"
+    "title": "Country Music University",
+    "image": "./images/mike.png",
+    "url": "https://countrymusicuniversity.cat"
+  },
+ {
+    "title": "Newgrass Republic",
+    "image": "./images/newg.png",
+    "url": "https://newgrassrepublic.cat"
   },
   {
     "title": "Capdevila Joiers",
@@ -35,13 +40,8 @@
     "url": "https://tinyurl.com/mt5t689f"
   },
   {
-    "title": "Country Music University",
-    "image": "./images/mike.png",
-    "url": "https://countrymusicuniversity.cat"
-  },
-  {
-    "title": "Newgrass Republic",
-    "image": "./images/newg.png",
-    "url": "https://newgrassrepublic.com"
+    "title": "Turolmec",
+    "image": "./images/divriots.png",
+    "url": "https://polite-trifle-bbb9e3.netlify.app"
   }
 ]
